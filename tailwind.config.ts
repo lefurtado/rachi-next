@@ -7,12 +7,25 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      "brand-color": "#0F9AFE",
+      "brand-color-light": "#EFF8FF",
+      "dark-10": "#293145",
+      "dark-20": "#6E7275",
+      "dark-30": "#DBDBDB",
+      "dark-40": "#FFFFFF",
+    },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'pc-background': "url('/assets/images/computer.png')",
       },
+      boxShadow: {
+        "3xl": "1px 3px 24px 0px rgba(1,56,222,0.5)",
+      },
+      fontFamily: {
+        'inter': ['Inter','sans-serif'],
+        'sora': ['Sora','sans-serif']
+       },
     },
   },
   plugins: [],

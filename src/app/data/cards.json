@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "image": "user.svg",
+    "title": "Crie conexões",
+    "description": "Lorem ipsum dolor sit amet, consecteteu."
+  },
+  {
+    "id": "2",
+    "image": "security.svg",
+    "title": "100% gratuito",
+    "description": "Lorem ipsum dolor sit amet, consecteteu."
+  },
+  {
+    "id": "3",
+    "image": "happy.svg",
+    "title": "Compartilhamento",
+    "description": "Lorem ipsum dolor sit amet, consecteteu."
+  }
+]
